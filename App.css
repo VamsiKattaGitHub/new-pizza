@@ -1,0 +1,33 @@
+/* General container styling */
+.container {
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Button styling */
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+  color: #333;
+  font-weight: bold;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-banner {
+      padding: 50px 20px;
+  }
+
+  .about-section {
+      padding: 30px 20px;
+  }
+
+  .contact-form {
+      padding: 20px;
+  }
+}
